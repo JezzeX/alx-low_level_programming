@@ -1,11 +1,12 @@
 #include "main.h"
-/* 
- * main - Entry point
- * File: 0-putchar.c
+/*
+ * main - Prints "_putchar" followed by a new line.
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
+
 	char sigh[9] = "_putchar";
 	int i;
 
