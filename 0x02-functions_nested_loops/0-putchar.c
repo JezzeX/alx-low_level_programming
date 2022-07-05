@@ -1,18 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 /* 
  * File: 0-putchar.c
  *
  */
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+	char sigh[9] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(sigh[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
