@@ -2,7 +2,7 @@
 
 /**
  * main - print alphabets in lowercase
- *
+ * print_alphabet - lowercase print a-z
  * Description - print_alphabet in lowercase
  *
  * Return : ALways void
