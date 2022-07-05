@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+/* function with all declarations
+ *
+ */
 
 int _putchar(char k);
 
