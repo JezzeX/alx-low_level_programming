@@ -21,10 +21,9 @@ int main(void)
 	{
 		printf("is zero\n");
 	}
-	else 
+	else
 	{
 		printf("is negative\n");
-	
 	}
 	return (0);
 }
