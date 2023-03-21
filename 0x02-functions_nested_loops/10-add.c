@@ -3,8 +3,8 @@
 /**
   * add - adds two integers
   * Return: sum
-  @x: first integer
-  @y: second integer
+  * @x: first integer
+  * @y: second integer
   */
 
 
