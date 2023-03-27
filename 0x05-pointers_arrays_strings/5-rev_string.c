@@ -7,7 +7,7 @@
 
 void rev_string(char *s)
 {
-	char tempstr[446];
+	char tempstr[500];
 	int i, j, k;
 
 	i = 0;
@@ -28,7 +28,7 @@ void rev_string(char *s)
 		i--;
 	}
 
-	while (k <= j)
+	while (k < j)
 	{
 		s[k] = tempstr[k];
 		k++;
